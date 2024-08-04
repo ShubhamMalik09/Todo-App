@@ -1,70 +1,91 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TODO App
 
-## Available Scripts
+A simple and interactive TODO app built with React that allows users to create, delete, and update tasks. The time of each task's update is recorded in real-time, and users can search for tasks directly from the URL.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Create Tasks**: Add new tasks to your TODO list.
+- **Delete Tasks**: Remove tasks from your TODO list.
+- **Update Tasks**: Edit tasks and update their information. The update time is recorded and displayed.
+- **Search Tasks**: Search for specific tasks directly from the URL.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+    ```bash
+    git clone https://github.com/ShubhamMalik09/Todo-App.git
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+    ```bash
+    cd todo-app
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Running the App
 
-### `npm run eject`
+To start the development server, run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run dev
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app will be running on `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Libraries Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **[Concurrently](https://www.npmjs.com/package/concurrently)**: To run multiple commands concurrently.
+- **[Axios](https://www.npmjs.com/package/axios)**: For making HTTP requests.
+- **[React Router Dom](https://www.npmjs.com/package/react-router-dom)**: For routing and navigation.
+- **[React Icons](https://www.npmjs.com/package/react-icons)**: For including icons in your React app.
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```plaintext
+todo-app/
+├── public/
+│   ├── index.html
+├── server/
+│   ├── db.json
+├── src/
+│   ├── components/
+│   │   ├── Task.jsx
+│   │   ├── TaskModal.jsx
+│   │   ├── Tasks.jsx
+│   │   ├── Todo.jsx
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+├── package.json
+├── README.md
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to Use
 
-### Code Splitting
+1. **Create Tasks**: Use the input form to add new tasks.
+2. **Delete Tasks**: Click the delete icon next to a task to remove it.
+3. **Update Tasks**: Click on a task to edit its details and save changes.
+4. **Search Tasks**: Use the search functionality by appending the search query to the URL, e.g., `http://localhost:3000/search`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ScreenShots
+<img src="https://drive.google.com/file/d/1KB-LWdp3kraVBPYU7LLB79teWxcK9GlQ/view?usp=sharing">
+<br>
+<img src="https://drive.google.com/file/d/1LlW2yDTv7ikY5bD6J8lXJxubS7hogMV_/view?usp=sharing">
+<br>
+<img src="https://drive.google.com/file/d/1kpH5ubMtXbiZFLOY4XkKRng8SJIQAj9Y/view?usp=sharing">
+<br>
+<img src="https://drive.google.com/file/d/1wqIPzVY91sVuVBsDcqhXCfbArAQbSbOD/view?usp=sharing">
+<br>
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to submit issues and enhancement requests.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
