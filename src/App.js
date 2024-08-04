@@ -1,11 +1,12 @@
-
-import './App.css';
+import { Route, Routes} from "react-router-dom"
+import Todo from './components/Todo';
 
 function App() {
   return (
-    <div className="App">
-      APP
-    </div>
+      <Routes>
+        <Route path="/" element={<Todo/>} />
+        <Route path="/:search" element={<Todo/>} />
+      </Routes>
   );
 }
 
