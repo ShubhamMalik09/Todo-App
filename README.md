@@ -76,13 +76,13 @@ todo-app/
 4. **Search Tasks**: Use the search functionality by appending the search query to the URL, e.g., `http://localhost:3000/search`.
 
 ## ScreenShots
-<img src="https://drive.google.com/file/d/1KB-LWdp3kraVBPYU7LLB79teWxcK9GlQ/view?usp=sharing">
+<img src="screenshots/Screenshot (55).png">
 <br>
-<img src="https://drive.google.com/file/d/1LlW2yDTv7ikY5bD6J8lXJxubS7hogMV_/view?usp=sharing">
+<img src="screenshots/Screenshot (58).png">
 <br>
-<img src="https://drive.google.com/file/d/1kpH5ubMtXbiZFLOY4XkKRng8SJIQAj9Y/view?usp=sharing">
+<img src="screenshots/Screenshot (64).png">
 <br>
-<img src="https://drive.google.com/file/d/1wqIPzVY91sVuVBsDcqhXCfbArAQbSbOD/view?usp=sharing">
+<img src="screenshots/Screenshot (65).png">
 <br>
 
 ## Contributing
